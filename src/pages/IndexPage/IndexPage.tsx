@@ -13,7 +13,9 @@ const IndexPage = () => {
                 className="bg-dark-violet hover:bg-dark-violet text-white font-bold py-2 px-4 border border-dark-violet rounded">
                 Регистрация
             </button>
-
+            <div className="w-36 rounded overflow-hidden shadow-lg">
+                <img src={"../src/app/assests/logo.png"} className="w-full" alt={"logo"}/><h1>KoMedia</h1>
+            </div>
         </BaseLayout>
     );
 };
