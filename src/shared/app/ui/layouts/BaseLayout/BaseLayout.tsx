@@ -1,9 +1,17 @@
-import React from 'react';
+import React, {ReactElement} from 'react';
+import Header from "shared/app/ui/layouts/Header/Header";
 
-const BaseLayout = () => {
+type BaseLayoutProps = {
+    children: ReactElement
+}
+
+const BaseLayout = ({children}:BaseLayoutProps) => {
     return (
-        <div>
-            
+        <div className='w-full h-auto'>
+            <Header/>
+            <div className='md:container md:mx-auto mt-5'>
+                {children}
+            </div>
         </div>
     );
 };
