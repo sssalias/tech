@@ -5,7 +5,7 @@ type BaseLayoutProps = {
     children: ReactElement
 }
 
-const BaseLayout = ({children}:BaseLayoutProps) => {
+const BaseLayout = ({children}:any) => {
     return (
         <div className='w-full h-auto'>
             <Header/>
