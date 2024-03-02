@@ -1,5 +1,5 @@
 import {useQuery} from 'react-query'
-import {IAxiosRequestConfig, axiosInstance} from './index'
+import {IAxiosRequestConfig, axiosInstance} from 'shared/app/api/hooks'
 
 
 export const useRequest = (name:string, config:IAxiosRequestConfig) => {

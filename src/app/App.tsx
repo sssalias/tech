@@ -1,10 +1,13 @@
 import React from 'react';
+import CustomRouter from "pages/Router/CustomRouter";
+
+import 'app/App.style.css'
 
 const App = () => {
     return (
-        <div>
-          <h1>Hello, ts!</h1>
-        </div>
+        <>
+         <CustomRouter/>
+        </>
     );
 };
 
