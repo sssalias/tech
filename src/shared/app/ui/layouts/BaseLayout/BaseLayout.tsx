@@ -9,8 +9,10 @@ const BaseLayout = ({children}:any) => {
     return (
         <div className='w-full h-auto'>
             <Header/>
-            <div className='md:container md:mx-auto mt-5'>
-                {children}
+            <div className='md:mx-auto my-10'>
+                <div className='px-24'>
+                    {children}
+                </div>
             </div>
         </div>
     );

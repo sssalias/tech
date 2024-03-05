@@ -1,4 +1,4 @@
-import IndexPage from "pages/IndexPage/IndexPage";
+import {IndexPage} from "pages";
 import {ReactElement} from "react";
 
 // Массив всех маршрутов, и соответсвующих им элементам
