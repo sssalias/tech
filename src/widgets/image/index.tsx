@@ -1,5 +1,11 @@
 import ImageCard from "./ImageCard/ImageCard";
+import Avatar from "./User/Avatar/Avatar";
+import UserNav from "./User/UserNav/UserNav";
+import UserData from "./User/UserData/UserData";
 
 export {
-    ImageCard
+    ImageCard,
+    Avatar,
+    UserNav,
+    UserData
 }
