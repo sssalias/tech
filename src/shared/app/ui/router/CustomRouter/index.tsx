@@ -8,7 +8,3 @@ export interface IRoute {
     element:ReactElement
 }
 
-export const routes:[IRoute] = [
-    {path: '/', element: <IndexPage/>}
-]
-

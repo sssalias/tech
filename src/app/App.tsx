@@ -1,12 +1,12 @@
 import React from 'react';
-import CustomRouter from "pages/Router/CustomRouter";
+import GlobalRouter from "router/GlobalRouter/GlobalRouter";
 
 import 'app/App.style.css'
 
 const App = () => {
     return (
         <>
-         <CustomRouter/>
+         <GlobalRouter/>
         </>
     );
 };
