@@ -5,7 +5,7 @@ import {IndexPage, ProfilePage} from "pages";
 
 const routes:IRoute[] = [
     {path: '/', element: <IndexPage/>},
-    {path: '/profile', element: <ProfilePage/>}
+    {path: '/profile/*', element: <ProfilePage/>}
 ]
 
 const GlobalRouter = () => {

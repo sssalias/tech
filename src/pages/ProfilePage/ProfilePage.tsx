@@ -1,16 +1,21 @@
 import React from 'react';
 import {BaseLayout} from "shared/app/ui";
-import Avatar from "../../widgets/image/User/Avatar/Avatar";
-import UserNav from "../../widgets/image/User/UserNav/UserNav";
+import {UserData, UserAvatar, UserNav} from 'widgets/user'
+import ProfileRouter from "router/ProfileRouter/ProfileRouter";
 
 const ProfilePage = () => {
     return (
         <BaseLayout>
-            <div>
-                <Avatar/>
-                <h1 className='text-center font-bold text-2xl'>Alexn Efm</h1>
-            </div><br/>
-            <UserNav/>
+            <div className='w-full flex-col space-y-6'>
+                <div className='flex-col space-y-2.5'>
+                    <UserAvatar/>
+                    <UserData/>
+                </div>
+                <UserNav/>
+                <div>
+                    <ProfileRouter/>
+                </div>
+            </div>
         </BaseLayout>
     );
 };

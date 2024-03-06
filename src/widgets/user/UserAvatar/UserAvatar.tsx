@@ -1,9 +1,9 @@
 import React from 'react';
 
-const Avatar = () => {
+const UserAvatar = () => {
     return (
         <div className='flex justify-center mx-auto h-32 w-32 bg-gray-300 rounded-full'></div>
     );
 };
 
-export default Avatar;
+export default UserAvatar;

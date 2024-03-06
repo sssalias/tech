@@ -1,17 +1,29 @@
 import React from 'react';
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes, useLocation} from "react-router-dom";
 import {IRoute} from "shared/app/ui/router/CustomRouter";
+import ModalRouter from "router/ModalRouter/ModalRouter";
 
 
 type CustomRouterProps = {
     routes:IRoute[]
 }
 
+
 const CustomRouter = ({routes}:CustomRouterProps) => {
+
+    const location = useLocation()
+
+    const prevLocation = location.state?.prevLocation
+
     return (
-        <Routes>
-            {routes.map(route => <Route key={route.path} path={route.path} element={route.element} />)}
-        </Routes>
+        <>
+            <Routes location={prevLocation || location}>
+                {routes.map(route => <Route key={route.path} path={route.path} element={route.element} />)}
+            </Routes>
+            {prevLocation && (
+                <ModalRouter/>
+            )}
+        </>
     );
 };
 

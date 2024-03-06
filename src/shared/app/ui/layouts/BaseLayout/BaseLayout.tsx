@@ -1,19 +1,17 @@
-import React, {ReactElement} from 'react';
-import Header from "shared/app/ui/layouts/Header/Header";
-
-type BaseLayoutProps = {
-    children: ReactElement
-}
+import React from 'react';
+import Header from "shared/app/ui/kit/Header/Header";
+import {Outlet} from "react-router-dom";
 
 const BaseLayout = ({children}:any) => {
     return (
-        <div className='w-full h-auto'>
+        <div className='w-full'>
             <Header/>
-            <div className='md:mx-auto my-10'>
-                <div className='px-24'>
+            <div className='w-full'>
+                <div className='w-3/4 mx-auto my-3'>
                     {children}
                 </div>
             </div>
+            <Outlet/>
         </div>
     );
 };
