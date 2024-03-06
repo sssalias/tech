@@ -1,8 +1,10 @@
 import React from 'react';
 
-const ImageCard = () => {
+const ImageCard = ({el}:any) => {
     return (
-        <div className='h-44 w-32 bg-gray-300 rounded'></div>
+        <div className='rounded'>
+            <img className='rounded' src={el} alt=""/>
+        </div>
     );
 };
 

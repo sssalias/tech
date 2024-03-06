@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, {useEffect, useState} from 'react';
 import {Link, useLocation} from "react-router-dom";
 import classNames from "classnames";
 
@@ -12,8 +12,11 @@ type NavItemProps = {
 const UserNavItem = ({path, children}:NavItemProps) => {
 
     const currentPath = useLocation().pathname.split('/').filter(el => el !== '' && el !== 'profile')
-    console.log(currentPath, path)
-    const [active, setActive] = useState(currentPath.includes(path))
+    const [active, setActive] = useState(false)
+
+    useEffect(() => {
+        setActive(currentPath.includes(path))
+    }, [currentPath])
 
     // underline underline-offset-4 decoration-2 decoration-black
     return (

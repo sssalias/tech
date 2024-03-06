@@ -4,6 +4,8 @@ import Logo from "./kit/Logo/Logo";
 import BaseLayout from "./layouts/BaseLayout/BaseLayout";
 import Header from "./kit/Header/Header";
 import CustomRouter from "./router/CustomRouter/CustomRouter";
+import Input from "./kit/Input/Input";
+import Drag from "./kit/Drag/Drag";
 
 export  {
     DefaultButton,
@@ -11,5 +13,7 @@ export  {
     Logo,
     BaseLayout,
     Header,
-    CustomRouter
+    CustomRouter,
+    Input,
+    Drag
 }
