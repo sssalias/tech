@@ -4,7 +4,7 @@ import Logo from "./kit/Logo/Logo";
 import BaseLayout from "./layouts/BaseLayout/BaseLayout";
 import Header from "./kit/Header/Header";
 import CustomRouter from "./router/CustomRouter/CustomRouter";
-import Input from "./kit/Input/Input";
+import SimpleField from "./kit/Fields/SimpleField/SimpleField";
 import Drag from "./kit/Drag/Drag";
 
 export  {
@@ -14,6 +14,6 @@ export  {
     BaseLayout,
     Header,
     CustomRouter,
-    Input,
+    SimpleField,
     Drag
 }

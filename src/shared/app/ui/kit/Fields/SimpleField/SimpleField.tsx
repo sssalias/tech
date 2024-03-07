@@ -6,7 +6,7 @@ type InputProps = {
     type: string
 }
 
-const Input = ({label, type}:InputProps) => {
+const SimpleField = ({label, type}:InputProps) => {
     return (
         <label className='flex flex-col text-base'>
             <span className='font-semibold'>{label}</span>
@@ -15,4 +15,4 @@ const Input = ({label, type}:InputProps) => {
     );
 };
 
-export default Input;
+export default SimpleField;
