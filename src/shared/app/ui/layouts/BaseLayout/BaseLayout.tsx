@@ -4,7 +4,7 @@ import {Outlet} from "react-router-dom";
 
 const BaseLayout = ({children}:any) => {
     return (
-        <div className='w-full'>
+        <div className='w-full mt-32'>
             <Header/>
             <div className='w-full'>
                 <div className='w-3/4 mx-auto my-3'>

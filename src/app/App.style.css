@@ -10,3 +10,7 @@
     --light-violet: #D7CFDE;
     --dark-violet: #402158;
 }
+
+input::file-selector-button {
+    display: none;
+}

@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@codesmith-99/react-file-preview": "^1.0.33",
+    "@cyntler/react-doc-viewer": "^1.14.1",
     "@fortawesome/fontawesome-svg-core": "^6.5.1",
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
     "@fortawesome/free-regular-svg-icons": "^6.5.1",
@@ -22,6 +24,7 @@
     "classnames": "^2.5.1",
     "font-awesome": "^4.7.0",
     "react": "^18.2.0",
+    "react-doc-viewer": "^0.1.5",
     "react-dom": "^18.2.0",
     "react-drag-drop-files": "^2.3.10",
     "react-masonry-component": "^6.3.0",
