@@ -1,8 +1,8 @@
 import React from 'react';
-import {IRoute} from "shared/app/ui/router/CustomRouter";
-import Albums from "pages/GeneralPages/ProfilePage/Albums/Albums";
-import Photos from "pages/GeneralPages/ProfilePage/Photos/Photos";
-import {CustomRouter} from "shared/app/ui";
+import {IRoute} from 'shared/ui/router/CustomRouter'
+import Albums from 'pages/GeneralPages/ProfilePage/Albums/Albums'
+import Photos from 'pages/GeneralPages/ProfilePage/Photos/Photos'
+import {CustomRouter} from 'shared/ui'
 
 const routes:IRoute[] = [
     {path: 'albums', element: <Albums/>},

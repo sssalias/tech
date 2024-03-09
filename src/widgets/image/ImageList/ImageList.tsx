@@ -1,6 +1,6 @@
-import React from 'react';
-import Masonry, {ResponsiveMasonry} from "react-responsive-masonry";
-import {ImageCard, ImageCardCreate} from "widgets/image/";
+import React from 'react'
+import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
+import {ImageCard, ImageCardCreate} from 'widgets/image/'
 
 type ImagesListProps = {
     elements?:string[]

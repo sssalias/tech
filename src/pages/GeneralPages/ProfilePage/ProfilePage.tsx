@@ -1,7 +1,7 @@
-import React from 'react';
-import {BaseLayout} from "shared/app/ui";
+import React from 'react'
+import {BaseLayout} from 'shared/ui'
 import {UserData, UserAvatar, UserNav} from 'widgets/user'
-import ProfileRouter from "router/ProfileRouter/ProfileRouter";
+import {ProfileRouter} from 'router'
 
 const ProfilePage = () => {
     return (

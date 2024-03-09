@@ -1,5 +1,5 @@
-import React from 'react';
-import {AlbumList} from "widgets/album";
+import React from 'react'
+import {AlbumList} from 'widgets/album'
 
 const Albums = () => {
     return (

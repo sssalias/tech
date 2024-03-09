@@ -1,6 +1,6 @@
 import React from 'react';
-import ModalLayout from "shared/app/ui/layouts/ModaLayout/ModalLayout";
-import {ImageCreateForm} from "widgets/image";
+import {ModalLayout} from 'shared/ui'
+import {ImageCreateForm} from 'widgets/image'
 
 const CreateImagePage = () => {
     return (

@@ -1,7 +1,8 @@
-import ImageCard from "./ImageCard/ImageCard";
-import ImageList from "./ImageList/ImageList";
-import ImageCardCreate from "./ImageCardCreate/ImageCardCreate";
-import ImageCreateForm from "./ImageCreateForm/ImageCreateForm";
+import ImageCard from 'widgets/image/ImageCard/ImageCard'
+import ImageList from 'widgets/image/ImageList/ImageList'
+import ImageCardCreate from 'widgets/image/ImageCardCreate/ImageCardCreate'
+import ImageCreateForm from 'widgets/image/ImageCreateForm/ImageCreateForm'
+
 export {
     ImageCard,
     ImageList,

@@ -1,6 +1,6 @@
-import React from 'react';
-import {Link, useLocation} from "react-router-dom";
-import UserNavItem from "../UserNavItem/UserNavItem";
+import React from 'react'
+import {Link, useLocation} from 'react-router-dom'
+import UserNavItem from '../UserNavItem/UserNavItem'
 
 const UserNav = () => {
     const currentPath = useLocation().pathname.split('/').filter(el => el !== '' && el !== 'profile')

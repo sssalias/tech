@@ -1,5 +1,5 @@
-import React from 'react';
-import {ImageList} from "widgets/image";
+import React from 'react'
+import {ImageList} from 'widgets/image'
 
 
 const elements = [

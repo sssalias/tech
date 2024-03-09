@@ -1,7 +1,7 @@
-import React from 'react';
-import {IRoute} from "shared/app/ui/router/CustomRouter";
+import React from 'react'
+import {IRoute} from 'shared/ui/router/CustomRouter'
 import {CreateAlbumPage, CreateImagePage} from 'pages'
-import {Route, Routes} from "react-router-dom";
+import {Route, Routes} from 'react-router-dom'
 
 
 const routes:IRoute[] = [

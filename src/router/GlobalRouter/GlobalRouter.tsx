@@ -1,7 +1,7 @@
-import React from 'react';
-import {CustomRouter} from "shared/app/ui";
-import {IRoute} from "shared/app/ui/router/CustomRouter";
-import {IndexPage, ProfilePage} from "pages";
+import React from 'react'
+import {CustomRouter} from 'shared/ui'
+import {IRoute} from 'shared/ui/router/CustomRouter'
+import {IndexPage, ProfilePage} from 'pages'
 
 const routes:IRoute[] = [
     {path: '/', element: <IndexPage/>},

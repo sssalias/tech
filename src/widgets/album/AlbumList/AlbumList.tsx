@@ -1,7 +1,7 @@
-import React from 'react';
-import AlbumItem, {AlbumItemProps} from "widgets/album/AlbumItem/AlbumItem";
-import {Link} from "react-router-dom";
-import AlbumItemCreate from "../AlbumItemCreate/AlbumItemCreate";
+import React from 'react'
+import AlbumItem, {AlbumItemProps} from 'widgets/album/AlbumItem/AlbumItem'
+import {Link} from 'react-router-dom'
+import AlbumItemCreate from 'widgets/album/AlbumItemCreate/AlbumItemCreate'
 
 const AlbumList = () => {
 

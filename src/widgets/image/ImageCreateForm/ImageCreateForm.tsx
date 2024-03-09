@@ -1,5 +1,5 @@
-import React from 'react';
-import {DefaultButton, Drag, SimpleField} from "../../../shared/app/ui";
+import React from 'react'
+import {DefaultButton, Drag, SimpleField} from 'shared/ui'
 
 const ImageCreateForm = () => {
     return (
