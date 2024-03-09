@@ -10,7 +10,7 @@ type Actions = {
 }
 
 const useUserStore = create<State & Actions>((set) => ({
-    isAuth: false,
+    isAuth: true,
     login: () => set(state => ({isAuth: true})),
     logout: () => set(state => ({isAuth: false}))
 }))

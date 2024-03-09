@@ -11,6 +11,7 @@ import SearchField from 'shared/ui/kit/Fields/SearchField/SearchField'
 import ModalLink from 'shared/ui/kit/ModalLink/ModalLink'
 import Checkbox from 'shared/ui/kit/Checkbox/Checkbox'
 import RadioButton from 'shared/ui/kit/RadioButton/RadioButton'
+import Loader from 'shared/ui/kit/Loader/Loader'
 
 export  {
     DefaultButton,
@@ -25,5 +26,6 @@ export  {
     SearchField,
     ModalLink,
     Checkbox,
-    RadioButton
+    RadioButton,
+    Loader
 }
