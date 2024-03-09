@@ -9,6 +9,8 @@ import Drag from 'shared/ui/kit/Drag/Drag'
 import ModalLayout from 'shared/ui/layouts/ModaLayout/ModalLayout'
 import SearchField from 'shared/ui/kit/Fields/SearchField/SearchField'
 import ModalLink from 'shared/ui/kit/ModalLink/ModalLink'
+import Checkbox from 'shared/ui/kit/Checkbox/Checkbox'
+import RadioButton from 'shared/ui/kit/RadioButton/RadioButton'
 
 export  {
     DefaultButton,
@@ -21,5 +23,7 @@ export  {
     Drag,
     ModalLayout,
     SearchField,
-    ModalLink
+    ModalLink,
+    Checkbox,
+    RadioButton
 }

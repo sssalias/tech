@@ -12,7 +12,7 @@ const Logo = () => {
                 <h4 className='font-bold text-xl bg-gradient-to-r from-dark-violet to-violet text-transparent bg-clip-text'>KoMedia</h4>
             </div>
         </Link>
-    );
-};
+    )
+}
 
-export default Logo;
+export default Logo

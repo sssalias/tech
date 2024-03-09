@@ -49,7 +49,7 @@ const IndexPage = () => {
                 <ImageList elements={elements}/>
             </div>
         </BaseLayout>
-    );
-};
+    )
+}
 
-export default IndexPage;
+export default IndexPage
