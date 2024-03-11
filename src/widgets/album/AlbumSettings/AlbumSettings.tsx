@@ -1,5 +1,6 @@
 import React from 'react'
 import {Checkbox, RadioButton} from 'shared/ui'
+import MetaDataButton from "../../../shared/ui/kit/Buttons/MetaDataButton";
 
 
 // TODO:
@@ -23,8 +24,13 @@ const AlbumSettings = () => {
                         </fieldset>
                         <fieldset className='flex flex-col items-center'>
                             <h3 className='font-bold text-lg'>Список участников</h3>
-                            
-                        </fieldset>
+                        </fieldset><br/>
+                        <div>
+                            <MetaDataButton>
+                                Добавить метаданные
+                            </MetaDataButton>
+                        </div>
+
                     </form>
                 </div>
             </div>

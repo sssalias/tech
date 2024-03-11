@@ -12,6 +12,7 @@ import ModalLink from 'shared/ui/kit/ModalLink/ModalLink'
 import Checkbox from 'shared/ui/kit/Checkbox/Checkbox'
 import RadioButton from 'shared/ui/kit/RadioButton/RadioButton'
 import Loader from 'shared/ui/kit/Loader/Loader'
+import MetaDataButton from "./kit/Buttons/MetaDataButton";
 
 export  {
     DefaultButton,
@@ -27,5 +28,6 @@ export  {
     ModalLink,
     Checkbox,
     RadioButton,
-    Loader
+    Loader,
+    MetaDataButton
 }
