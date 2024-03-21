@@ -5,6 +5,9 @@ import CreateAlbumPage from 'pages/ModalsPages/CreateAlbumPage/CreateAlbumPage'
 import Photos from 'pages/GeneralPages/ProfilePage/Photos/Photos'
 import CreateImagePage from 'pages/ModalsPages/CreateImagePage/CreateImagePage'
 import AlbumsDetails from 'pages/GeneralPages/ProfilePage/AlbumsDetails/AlbumsDetails'
+import CreateVideoPage from 'pages/ModalsPages/CreateVideoPage/CreateVideoPage'
+import Video from 'pages/GeneralPages/ProfilePage/Video/Video'
+
 
 export {
     IndexPage,
@@ -13,5 +16,7 @@ export {
     CreateAlbumPage,
     CreateImagePage,
     Photos,
-    AlbumsDetails
+    AlbumsDetails,
+    CreateVideoPage,
+    Video
 }

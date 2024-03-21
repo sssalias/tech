@@ -7,7 +7,7 @@ const UserNav = () => {
             <nav className='flex justify-center gap-5'>
                 <UserNavItem  path='albums'>Альбомы</UserNavItem>
                 <UserNavItem path='photos'>Фотографии</UserNavItem>
-                <UserNavItem path=''>Видео</UserNavItem>
+                <UserNavItem path='videos'>Видео</UserNavItem>
                 <UserNavItem path=''>Избранное</UserNavItem>
             </nav>
         </div>

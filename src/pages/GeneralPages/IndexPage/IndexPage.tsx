@@ -2,6 +2,7 @@ import React from 'react'
 import {BaseLayout} from 'shared/ui'
 import {ImageList} from 'widgets/image'
 import {SearchField} from 'shared/ui'
+import VideoList from "../../../widgets/video/VideoList/VideoList";
 
 const IndexPage = () => {
 
@@ -47,6 +48,7 @@ const IndexPage = () => {
                     <SearchField/>
                 </div>
                 <ImageList elements={elements}/>
+                <VideoList elements={elements}/>
             </div>
         </BaseLayout>
     )
