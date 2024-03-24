@@ -18,7 +18,7 @@ const AlbumList = () => {
     return (
         <div className='grid grid-cols-4 gap-6 '>
             {/*{array.map(el => <AlbumItem title={el.title} src={el.src}/>)}*/}
-            {albums.map((el:any) => <AlbumItem path={el.id} src='https://urgi-stv.ru/wp-content/uploads/2/c/a/2ca07ff0390ccfd7fc4392f6c5416bbc.jpeg' title={el.title}/>)}
+            {albums ? albums.map((el:any) => <AlbumItem path={el.id} src='https://urgi-stv.ru/wp-content/uploads/2/c/a/2ca07ff0390ccfd7fc4392f6c5416bbc.jpeg' title={el.title}/>) : null}
             <AlbumItemCreate/>
         </div>
     );
