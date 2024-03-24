@@ -5,7 +5,6 @@ import {SearchField} from 'shared/ui'
 import VideoList from "../../../widgets/video/VideoList/VideoList";
 
 const IndexPage = () => {
-
     const elements = [
         'https://avatars.mds.yandex.net/i?id=d02a82b49cf749fab4ca591605a9a193922bb839-10727636-images-thumbs&n=13',
         'https://avatars.mds.yandex.net/i?id=36b8564507c4ef2bd469b28ef1153bd273669bc3-10702829-images-thumbs&n=13',
