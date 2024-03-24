@@ -1,9 +1,9 @@
 import {makeRequest, Methods} from 'features/api/config'
 
-export const getFiles = (token:string) => {
+export const getFiles = async (token:string) => {
     return makeRequest(
         Methods.GET,
-        '/file/my',
+        '/files/my',
         token
     )
 }
@@ -11,7 +11,7 @@ export const getFiles = (token:string) => {
 export const createFile = (token: string, data: any) => {
     return makeRequest(
         Methods.POST,
-        '/file/my',
+        '/files',
         token,
         data,
         'multipart/form-data'

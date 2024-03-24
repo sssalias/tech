@@ -5,15 +5,14 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faFile} from '@fortawesome/free-solid-svg-icons'
 
 type DragProps = {
-    label: string
+    label?: string
+    file?: any
+    setFile?: any
 }
 
 const allowedFileTypes:string[] = ['JPG', 'JPEG', 'PNG']
 
-const Drag = ({label}:DragProps) => {
-
-    const [file, setFile]:[any, SetStateAction<any>] = useState(null)
-
+const Drag = ({label, file, setFile}:DragProps) => {
     const [dragIsActive, setDragIsActive] = useState(false)
 
     const fileInputRef = useRef<HTMLInputElement | null>(null)

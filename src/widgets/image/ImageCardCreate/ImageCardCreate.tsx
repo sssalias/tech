@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import {faPlus} from '@fortawesome/free-solid-svg-icons'
 import {ModalLink} from 'shared/ui'
 
-const ImageCardCreate = () => {
+const ImageCardCreate = ({albumId}:any) => {
     const location = useLocation()
     return (
         <ModalLink path='/profile/photos/create'>

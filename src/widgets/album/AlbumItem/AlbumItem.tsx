@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 export type AlbumItemProps = {
     src: string,
     title: string,
-    path?: string
+    path?: string,
 }
 
 const AlbumItem = ({src, title, path=''}:AlbumItemProps) => {
